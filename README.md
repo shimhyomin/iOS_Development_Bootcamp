@@ -16,3 +16,13 @@
 
 ## Section 5: Swift Programming Basics Challenge
 ###
+
+## Section 6: Auto Layout and Responsive UIs
+### Random Dice App을 Responsive UIs
+
+## Section 7: Using and Understanding Apple Documentation
+### Xylophone App 만들기
+
+## Section 8: Intermediate Swift Programming - Control Flow and Optionals
+### EggTimer App 만들기
+
