@@ -4,6 +4,14 @@ protocol CanFly {
     func fly()
 }
 
+// Protocol Extension
+// -> default를 define
+extension CanFly {
+    func fly() {
+        print("The object atkes off into the air.")
+    }
+}
+
 class Bird {
     var isFemale = true
     
