@@ -14,13 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var currencyLabel: UILabel!
     @IBOutlet weak var currencyPicker: UIPickerView!
     
-    let coinManager = CoinManager()
+    var coinManager = CoinManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         currencyPicker.dataSource = self
         currencyPicker.delegate = self
+        
+        coinManager.delegate = self
     }
 }
 
@@ -40,10 +42,24 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
         // picker componet에 들어갈 string 값 리턴
         return coinManager.currencyArray[row]
     }
-
+    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         // picker의 component가 선택 됐을 때
         let selectedCurrency = coinManager.currencyArray[row]
         coinManager.fetchCoin(currency: selectedCurrency)
+    }
+}
+
+// MARK: - CoinManagerDelegate
+extension ViewController: CoinManagerDelegate {
+    func didUpdateCoin(_ coinManager: CoinManager, coin: CoinModel) {
+        DispatchQueue.main.async {
+            self.bitcoinLabel.text = coin.rateString
+            self.currencyLabel.text = coin.currency
+        }
+    }
+    
+    func didFailWithError(error: Error) {
+        print(error)
     }
 }
