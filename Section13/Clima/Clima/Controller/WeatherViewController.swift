@@ -88,7 +88,7 @@ extension WeatherViewController: WeatherManagerDelegate {
     }
 }
 
-// Mark: - CLLocationMangerDelegate
+// MARK: - CLLocationManagerDelegate
 extension WeatherViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
