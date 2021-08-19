@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 }
 
-// MARK: - UIPickerViewDataSource, UIPickerDelegate
+// MARK: - UIPickerViewDataSource, UIPickerViewDelegate
 extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         // picker의 column 개수 리턴
@@ -44,6 +44,6 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         // picker의 component가 선택 됐을 때
         let selectedCurrency = coinManager.currencyArray[row]
-        coinManager.getCoinPrice(for: selectedCurrency)
+        coinManager.fetchCoin(currency: selectedCurrency)
     }
 }
