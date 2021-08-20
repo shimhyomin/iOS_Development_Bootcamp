@@ -264,7 +264,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="F21-w0-z4z" id="YUG-Hl-Rxj"/>
                         <outlet property="passwordTextfield" destination="abR-gz-opL" id="xCU-X2-hrx"/>
-                        <segue destination="lwd-AH-u8E" kind="show" identifier="LogininToChat" id="df7-1F-iaC"/>
+                        <segue destination="lwd-AH-u8E" kind="show" identifier="LoginToChat" id="df7-1F-iaC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcE-Gk-YZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -378,7 +378,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="3YU-Ih-dXG"/>
+        <segue reference="df7-1F-iaC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
