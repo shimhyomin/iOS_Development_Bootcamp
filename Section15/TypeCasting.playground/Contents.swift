@@ -22,13 +22,8 @@ class Fish: Animal {
 let hyomin = Human(n: "Shim Hyomin")
 let jack = Human(n: "Jack Bauer")
 let nemo = Fish(n: "Nemo")
-let num = 12
 
 let neighbours = [hyomin, jack, nemo]   // -> Animal Class
-
-// Any
-// 어떤 멤버를 갖든 상관 x
-let anyNeighbours: [Any] = [hyomin, jack, nemo, num]
 
 let neighbour1 = neighbours[0]  // -> Animal Class
 
@@ -60,3 +55,19 @@ if let fish = neighbours[1] as? Fish {
 // as keyword는 upcast
 let animalFish = nemo as Animal
 // animalFish.breatheUnderWater() -> Error
+
+
+// Any
+// 어떤 멤버를 갖든 상관 x
+let num = 12
+let anyNeighbours: [Any] = [hyomin, jack, nemo, num]
+
+// ANyObject
+// let anyObjectNeighbours: [AnyObject] = [hyomin, jack, nemo, num] -> num Error! object는 class만 해당됨! struct도 int도 안된다
+
+// NSObject
+// let nsObjectNeighbours: [NSObject] = [hyomin, jack, nemo] -> Error
+let number: NSNumber = 10
+let word: NSString = "aba"
+let nsObjec: [NSObject] = [number, word]
+
