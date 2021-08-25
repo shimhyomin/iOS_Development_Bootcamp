@@ -51,6 +51,8 @@ struct Town {
 * View란 사용자에게 보여지는 화면을 담당
 * Controller란 Model과 View를 연결하는 역할
 ##### MVC pattern에서는 Model과 View는 절대 서로에게 접근하지 않는다.
+![image](https://user-images.githubusercontent.com/87226868/130751224-f7041ea6-3598-4a3e-9dd9-68e05cc01b23.png)
+
 ##### ...
 ##### 이제 quiz app에서 MVC pattern을 적용해보도록 한다.
 ##### 우선 위에서 만든 Question structure은 Model에 해당된다.
