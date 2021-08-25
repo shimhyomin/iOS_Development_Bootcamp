@@ -33,7 +33,7 @@ if loveScore == 100 {
 }
 ```
 
-* - ELSE IF 문
+* ELSE IF 문
 ```
 if 조건식 {
   // todo
