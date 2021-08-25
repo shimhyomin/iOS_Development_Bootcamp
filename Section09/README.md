@@ -15,7 +15,7 @@ What I’ll Learn
 
 
 ## ✅ Check the answers.
-###### ViewController.swift에서 @IBAction 함수와 true button, false button 두 Element를 연결한다. 사용자가 true 혹은 false button을 눌렀을 때 누른 것이 정답인지 아닌지 확인한다.
+##### ViewController.swift에서 @IBAction 함수와 true button, false button 두 Element를 연결한다. 사용자가 true 혹은 false button을 눌렀을 때 누른 것이 정답인지 아닌지 확인한다.
 
 
 ## 🏛 Learn about Swift Structures.
