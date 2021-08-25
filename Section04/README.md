@@ -49,5 +49,7 @@ What I’ll Learn
 ##### 마지막으로 user가 button을 클릭했을 때, dice의 이미지가 랜덤하게 변하도록 한다.
 ##### 우선 1부터 6까지의 주사위 눈이 그려진 dice image resource를 array에 저장한다.
 ##### swfit에서 제공하는 random 함수를 이용하여 Array의 index를 랜덤하게 하여 접근하도록 한다.
-  Int.random(in: 0…5)
+```
+Int.random(in: 0…5)
+```
 ##### 위 코드는 0부터 5까지의 정수값을 랜덤하게 제공한다.
