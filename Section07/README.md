@@ -8,7 +8,7 @@ What I’ll Learn
 #### 🎏 Linking multiple elements to one IBAction.
 #### 📥 Creating functions with inputs.
 #### 🎼 Play different sounds for different buttons.
-
+***
 ## 🏗 Setup the Skeleton Project.
 ##### 해당 Skeleton Project를 clone 해온다.
 
