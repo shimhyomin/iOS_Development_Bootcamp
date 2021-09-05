@@ -77,7 +77,7 @@
         <!--Todoey-->
         <scene sceneID="Xet-7f-4EB">
             <objects>
-                <tableViewController id="Hcx-6G-Ry2" customClass="CategoryViewController" sceneMemberID="viewController">
+                <tableViewController id="Hcx-6G-Ry2" customClass="CategoryViewController" customModule="Todoey" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lVK-wN-8wC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gp3-dp-arH">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="addButtonPress:" destination="Hcx-6G-Ry2" id="WT8-qN-Zlx"/>
+                                <action selector="addButtonPressed:" destination="Hcx-6G-Ry2" id="ty3-EM-t7r"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
