@@ -21,8 +21,6 @@ class CategoryViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        print("CategoryViewController")
         
         loadCategories()
     }
