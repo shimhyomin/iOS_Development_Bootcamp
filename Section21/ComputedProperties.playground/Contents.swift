@@ -1,6 +1,24 @@
 import Foundation
 
-let pizzaInches: Int = 10
+var pizzaInches: Int =  10 {
+    willSet {
+        print(pizzaInches)
+        print(newValue)
+    }
+    didSet {
+        print(oldValue)
+        print(pizzaInches)
+        
+        if pizzaInches >= 18 {
+            print("Invalid size specified, pizzaInches set to 18.")
+            pizzaInches = 18
+        }
+    }
+}
+
+pizzaInches = 33
+print(pizzaInches)
+
 var numberOfPeople: Int = 6
 let slicesperPerson: Int = 5
 
