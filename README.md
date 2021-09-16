@@ -49,6 +49,46 @@
 + MVC 모델을 적용한다.
 + Immutabiliby
 
-## Section 10: iOS App Design Patterns
-### 
+## Section 11: Advanced Swift Programming - Classes, Inheritance & Advanced Optionals
+### BMI Calculator app 만들기
++ Class와 Inheritance를 이해한다.
++ Struct와 Class의 차이를 이해한다.
++ Segues를 이용하여 multi-Screen app을 구현한다.
++ MVC 모델을 적용한다.
 
+## Section 13: Networking, JSON Parsing, APIs and Core Location
+### Clima app 만들기
++ protocol과 delegate design pattern을 이해한다.
++ closures를 이해한다.
++ API를 가져올 수 있다.
++ API를 통해 가져온 data를 JSON Decoding할 수 있다.
++ DispatchQueue를 사용하는 상황을 이해하고 이를 이용하여 UI를 Update 한다.
++ CoreLocation을 통해 Location data를 가져올 수 있다.
+
+## Section 14: Networking and API Challenge
+
+## Section 15: Firebase Cloud Firestore, TableViews and Cocoapod Dependencies
+### FlashCaht app 만들기
+
+## Section 17: SwiftUI and Declarative Programming
+### Dice-SiwftUI app 만들기
+### BusinessCard app 만들기
+### H4XOR News app 만들기
+
+## Section 19: Local Data persistance - User Defaults, Core Data and Realm
+### Todey app 만들기
+
+## Section 20: In-App Purchases and Apple StoreKit
+### InsapoQuotes app 만들기
+
+## Section 21: Advanced Siwft Classroom - Part1
++ Advanced Property를 이해한다.
++ Computed Property를 이해한다.
+
+## Section 22: Advanced Siwft Classroom - Part2
+
+## Section 23: CoreML and Machine Learning
+### SeaFood app 만들기
+
+## Section 27: ARKit & Augmented Reality Apps
+### ARDicee app 
